@@ -1,62 +1,18 @@
-🧮 Rozřazovač Třídy
-Tento projekt slouží k automatizovanému rozdělení studentů do skupin nebo tříd podle zadaných kritérií. Je vytvořen jako Jupyter notebook v jazyce Python a využívá knihovny jako pandas a random.
+# 🧮 Rozřazovač Třídy
 
-📝 Popis projektu
-Notebook rozřazovačtřída.ipynb umožňuje:
+Tento projekt slouží k automatizovanému rozdělení žáků do skupin podle zvolených kritérií. Využívá Python a běží jako Jupyter Notebook.
 
-Načíst seznam žáků z tabulky nebo seznamu.
+## 📝 Popis projektu
 
-Náhodně nebo systematicky rozdělit žáky do několika skupin.
+Notebook `rozřazovačtřída.ipynb`:
 
-Zohlednit specifická pravidla (např. rozdělení podle pohlaví, zachování kamarádů atd. – dle úprav v kódu).
+- Načte seznam žáků.
+- Rozdělí je do zvoleného počtu skupin (např. pro skupinovou práci, laboratorní cvičení apod.).
+- Výsledky lze exportovat do CSV nebo Excelu.
 
-Export výsledků do CSV nebo Excelu.
+## 💡 Požadavky
 
-💡 Předpoklady
-Projekt je napsán v Pythonu a předpokládá použití Jupyter notebooku.
+Pro běh projektu je potřeba mít nainstalované následující knihovny:
 
-Použité knihovny:
-pandas
-
-random
-
-openpyxl (volitelně, pokud exportujete do Excelu)
-
-🚀 Spuštění projektu
-Naklonujte si repozitář:
-
-bash
-Zkopírovat
-Upravit
-git clone https://github.com/uzivatel/rozrazovac-trida.git
-cd rozrazovac-trida
-Otevřete Jupyter Notebook:
-
-bash
-Zkopírovat
-Upravit
-jupyter notebook
-Spusťte rozřazovačtřída.ipynb a postupujte podle instrukcí v buňkách.
-
-🛠 Možnosti úprav
-Změna počtu skupin.
-
-Změna pravidel rozdělování.
-
-Možnost upravit vstupní data (např. načítání z Google Sheets, CSV apod.).
-
-📁 Struktura repozitáře
-go
-Zkopírovat
-Upravit
-rozrazovac-trida/
-├── rozřazovačtřída.ipynb
-├── README.md
-└── výstupy/ (volitelné, např. výsledné rozdělení)
-📜 Licence
-Tento projekt je dostupný pod licencí MIT. Podrobnosti najdete v souboru LICENSE.
-
-👤 Autor
-Jakub Rund
-Učitel informatiky a fyziky
-ZŠ Rokycanova, Sokolov
+```bash
+pip install pandas openpyxl
